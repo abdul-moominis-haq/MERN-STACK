@@ -2,18 +2,20 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "node js",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "node app.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "type": "module",
   "keywords": [],
   "author": "IS-HAQ ABDUL-MOOMIN",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "express": "^5.2.1",
-    "mongodb": "^7.1.0"
+    "mongodb": "^7.1.0",
+    "mongoose": "^7.3.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
