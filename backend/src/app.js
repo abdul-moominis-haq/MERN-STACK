@@ -9,8 +9,8 @@ import userRoutes from './routes/user.route.js';
 // routes declaration
 app.use(express.json());
 
-app.use('/api/users', userRoutes);
+app.use('/api/v1/users', userRoutes);
  
-//example of routes  localhost:8000/api/users/register
+//example of routes http://localhost:8000/api/v1/users/register
 
 export default app;
