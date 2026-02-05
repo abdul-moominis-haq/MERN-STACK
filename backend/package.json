@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "node js",
   "main": "server.js",
   "scripts": {
     "start": "node app.js",
@@ -9,7 +9,7 @@
   },
   "type": "module",
   "keywords": [],
-  "author": "",
+  "author": "IS-HAQ ABDUL-MOOMIN",
   "license": "ISC",
   "dependencies": {
     "express": "^5.2.1",
@@ -17,5 +17,13 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdul-moominis-haq/MERN-STACK.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abdul-moominis-haq/MERN-STACK/issues"
+  },
+  "homepage": "https://github.com/abdul-moominis-haq/MERN-STACK#readme"
 }
